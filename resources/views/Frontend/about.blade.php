@@ -3,6 +3,10 @@
 @section('title', 'About Us - Trusted Used Auto Parts Supplier | Find My Part')
 @section('meta_description', 'Learn about Find My Part, your premier source for quality used auto parts, engines, and transmissions. Quality tested components with warranty.')
 @section('meta_keywords', 'about find my part, used auto parts supplier, OEM car components, quality used engines, tested car parts')
+@section('canonical', 'https://findmypart.org/about')
+@section('og_title', 'About Us - Trusted Used Auto Parts Supplier | Find My Part')
+@section('og_description', 'Learn about Find My Part, your premier source for quality used auto parts, engines, and transmissions. Quality tested components with warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

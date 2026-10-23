@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Axle Shafts & CV Axles for Sale | Cars Part Shop')
-@section('meta_description', 'Shop reliable used axle shafts and front/rear CV axle assemblies. Quality tested for safe driving.')
-@section('meta_keywords', 'used axle shaft, CV axle assembly, drive axle shaft, OEM axle shaft')
+@section('title', 'Used Axle Shafts & CV Axles for Sale | Find My Part')
+@section('meta_description', 'Shop reliable used axle shafts and front/rear CV axle assemblies. Quality tested for safe driving. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used axle shaft, CV axle assembly, drive axle shaft, OEM axle shaft, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/axle-shaft')
+@section('og_title', 'Used Axle Shafts & CV Axles for Sale | Find My Part')
+@section('og_description', 'Shop reliable used axle shafts and front/rear CV axle assemblies. Quality tested for safe driving. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

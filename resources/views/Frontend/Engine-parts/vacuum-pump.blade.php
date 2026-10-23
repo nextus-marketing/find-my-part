@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Vacuum Pumps for Sale | Cars Part Shop')
-@section('meta_description', 'Buy reliable used brake and engine vacuum pumps. Inspected OEM auto parts with fast delivery.')
-@section('meta_keywords', 'used vacuum pump, car vacuum pump, brake vacuum pump replacement')
+@section('title', 'Used Vacuum Pumps for Sale | Find My Part')
+@section('meta_description', 'Buy reliable used brake and engine vacuum pumps. Inspected OEM auto parts with fast delivery. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used vacuum pump, brake vacuum pump, OEM vacuum pump, replacement vacuum pump, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/vacuum-pump')
+@section('og_title', 'Used Vacuum Pumps for Sale | Find My Part')
+@section('og_description', 'Buy reliable used brake and engine vacuum pumps. Inspected OEM auto parts with fast delivery. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

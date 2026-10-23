@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Quality Used Engine Parts & Motors | Cars Part Shop')
-@section('meta_description', 'Shop high quality tested used engine parts, full engines, cylinder heads, camshafts, turbochargers & radiators with warranty and fast shipping nationwide.')
-@section('meta_keywords', 'used engine parts, car engine replacement, OEM cylinder head, turbocharger, camshaft, radiator, catalytic converter, used car motor')
+@section('title', 'Quality Used Engine Parts & Motors | Find My Part')
+@section('meta_description', 'Shop high quality tested used engine parts, full engines, cylinder heads, camshafts, turbochargers & radiators with warranty and fast shipping nationwide. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used engine parts, car engine replacement, OEM cylinder head, turbocharger, camshaft, radiator, catalytic converter, used car motor, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts')
+@section('og_title', 'Quality Used Engine Parts & Motors | Find My Part')
+@section('og_description', 'Shop high quality tested used engine parts, full engines, cylinder heads, camshafts, turbochargers & radiators with warranty and fast shipping nationwide. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

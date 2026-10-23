@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Exhaust Manifolds for Sale | Cars Part Shop')
-@section('meta_description', 'Find genuine used exhaust manifolds to eliminate exhaust leaks and restore optimal engine efficiency. Tested quality.')
-@section('meta_keywords', 'used exhaust manifold, car exhaust manifold, OEM exhaust manifold')
+@section('title', 'Used Exhaust Manifolds for Sale | Find My Part')
+@section('meta_description', 'Find genuine used exhaust manifolds to eliminate exhaust leaks and restore optimal engine efficiency. Tested quality. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used exhaust manifold, OEM exhaust manifold, replacement exhaust manifold, engine exhaust, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/exhaust-manifold')
+@section('og_title', 'Used Exhaust Manifolds for Sale | Find My Part')
+@section('og_description', 'Find genuine used exhaust manifolds to eliminate exhaust leaks and restore optimal engine efficiency. Tested quality. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

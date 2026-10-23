@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Sun Visors - Driver & Passenger | Cars Part Shop')
-@section('meta_description', 'Find clean used sun visors with vanity lights and mirrors. Factory match color options available.')
-@section('meta_keywords', 'used sun visor, driver sun visor, passenger sun visor, illuminated sun visor')
+@section('title', 'Used Sun Visors - Driver & Passenger | Find My Part')
+@section('meta_description', 'Find clean used sun visors with vanity lights and mirrors. Factory match color options available. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used sun visor, driver sun visor, passenger sun visor, illuminated sun visor, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/sun-visor')
+@section('og_title', 'Used Sun Visors - Driver & Passenger | Find My Part')
+@section('og_description', 'Find clean used sun visors with vanity lights and mirrors. Factory match color options available. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

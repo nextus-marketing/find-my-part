@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Transmissions for Sale - Automatic & Manual | Cars Part Shop')
+@section('title', 'Used Transmissions for Sale - Automatic & Manual | Find My Part')
 @section('meta_description', 'Buy tested used transmissions with warranty. Great deals on automatic and manual gearboxes for all car makes & models. Call +1 (855) 347-4757!')
-@section('meta_keywords', 'used transmission, automatic transmission for sale, manual transmission, OEM gearbox')
+@section('meta_keywords', 'used transmission, automatic transmission for sale, manual transmission, OEM gearbox, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/transmission')
+@section('og_title', 'Used Transmissions for Sale - Automatic & Manual | Find My Part')
+@section('og_description', 'Buy tested used transmissions with warranty. Great deals on automatic and manual gearboxes for all car makes & models. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

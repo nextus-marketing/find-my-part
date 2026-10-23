@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Quality Used Car Engines & Motors for Sale | Cars Part Shop')
+@section('title', 'Quality Used Car Engines & Motors for Sale | Find My Part')
 @section('meta_description', 'Buy high quality tested used car engines with warranty. Low mileage OEM replacement motors available with fast fast shipping. Call +1 (855) 347-4757!')
-@section('meta_keywords', 'used car engines, replacement motor, OEM engine, used engine for sale, low mileage car engine')
+@section('meta_keywords', 'used car engines, replacement motor, OEM engine, used engine for sale, low mileage car engine, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/car-engine')
+@section('og_title', 'Quality Used Car Engines & Motors for Sale | Find My Part')
+@section('og_description', 'Buy high quality tested used car engines with warranty. Low mileage OEM replacement motors available with fast shipping. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

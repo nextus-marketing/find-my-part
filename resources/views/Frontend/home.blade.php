@@ -2,6 +2,10 @@
 @section('title', 'Used Car Parts Shop | Classic to Modern Brands - Find My Part')
 @section('meta_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 347-4757 for best deals!')
 @section('meta_keywords', 'used car parts, auto parts shop, genuine car parts, used engine, used transmission, car body parts, recycled auto parts, OEM auto parts, Find My Part')
+@section('canonical', 'https://findmypart.org/')
+@section('og_title', 'Used Car Parts Shop | Classic to Modern Brands - Find My Part')
+@section('og_description', 'We are the leading used car parts shop. Get genuine car body parts with our same day shipping service. Call Now: +1 (855) 347-4757 for best deals!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

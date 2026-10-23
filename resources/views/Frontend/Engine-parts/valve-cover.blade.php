@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Valve Covers for Sale | Cars Part Shop')
-@section('meta_description', 'Shop clean tested used valve covers for engine valve train protection. Quality replacement parts at affordable rates.')
-@section('meta_keywords', 'used valve cover, engine valve cover, OEM valve cover replacement')
+@section('title', 'Used Valve Covers for Sale | Find My Part')
+@section('meta_description', 'Shop clean tested used valve covers for engine valve train protection. Quality replacement parts at affordable rates. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used valve cover, OEM valve cover, replacement valve cover, engine valve train, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/valve-cover')
+@section('og_title', 'Used Valve Covers for Sale | Find My Part')
+@section('og_description', 'Shop clean tested used valve covers for engine valve train protection. Quality replacement parts at affordable rates. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

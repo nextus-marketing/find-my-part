@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Floor Shifters & Shift Assemblies | Cars Part Shop')
-@section('meta_description', 'Find clean used floor shifters, shift levers, and gear selectors for automatic and manual transmissions.')
-@section('meta_keywords', 'used floor shifter, gear shifter, gear selector, transmission floor shifter')
+@section('title', 'Used Floor Shifters & Shift Assemblies | Find My Part')
+@section('meta_description', 'Find clean used floor shifters, shift levers, and gear selectors for automatic and manual transmissions. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used floor shifter, gear shifter, gear selector, transmission floor shifter, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/floor-shifter')
+@section('og_title', 'Used Floor Shifters & Shift Assemblies | Find My Part')
+@section('og_description', 'Find clean used floor shifters, shift levers, and gear selectors for automatic and manual transmissions. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

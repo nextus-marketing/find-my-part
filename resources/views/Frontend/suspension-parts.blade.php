@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Suspension Parts & Steering Systems | Cars Part Shop')
-@section('meta_description', 'Buy tested used shock absorbers, struts, rack & pinion steering, control arms, power steering pumps, and brake calipers at unbeatable prices.')
-@section('meta_keywords', 'used suspension parts, shock absorber, rack and pinion, control arms, brake calipers, power steering pump, struts')
+@section('title', 'Used Suspension Parts & Steering Systems | Find My Part')
+@section('meta_description', 'Buy tested used shock absorbers, struts, rack & pinion steering, control arms, power steering pumps, and brake calipers at unbeatable prices. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used suspension parts, shock absorber, rack and pinion, control arms, brake calipers, power steering pump, struts, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts')
+@section('og_title', 'Used Suspension Parts & Steering Systems | Find My Part')
+@section('og_description', 'Buy tested used shock absorbers, struts, rack & pinion steering, control arms, power steering pumps, and brake calipers at unbeatable prices. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

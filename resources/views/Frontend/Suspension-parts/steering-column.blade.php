@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Steering Columns for Sale | Cars Part Shop')
-@section('meta_description', 'Shop complete used steering columns with tilt mechanism and ignition housing. Tested OEM assemblies.')
-@section('meta_keywords', 'used steering column, car steering column assembly, tilt steering column')
+@section('title', 'Used Steering Columns for Sale | Find My Part')
+@section('meta_description', 'Shop complete used steering columns with tilt mechanism and ignition housing. Tested OEM assemblies. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used steering column, car steering column assembly, tilt steering column, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/steering-column')
+@section('og_title', 'Used Steering Columns for Sale | Find My Part')
+@section('og_description', 'Shop complete used steering columns with tilt mechanism and ignition housing. Tested OEM assemblies. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Suspension Struts & Assemblies | Cars Part Shop')
-@section('meta_description', 'Find reliable used suspension struts and complete strut tower assemblies. Smooth ride and durable performance.')
-@section('meta_keywords', 'used suspension strut, front strut assembly, rear strut, strut tower')
+@section('title', 'Used Suspension Struts & Assemblies | Find My Part')
+@section('meta_description', 'Find reliable used suspension struts and complete strut tower assemblies. Smooth ride and durable performance. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used suspension strut, front strut assembly, rear strut, strut tower, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/strut')
+@section('og_title', 'Used Suspension Struts & Assemblies | Find My Part')
+@section('og_description', 'Find reliable used suspension struts and complete strut tower assemblies. Smooth ride and durable performance. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

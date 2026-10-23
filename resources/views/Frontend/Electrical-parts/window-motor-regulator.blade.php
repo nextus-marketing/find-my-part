@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Power Window Motors & Regulators | Cars Part Shop')
-@section('meta_description', 'Find reliable used power window motors and window regulator assemblies for all doors. Tested performance.')
-@section('meta_keywords', 'used window motor, window regulator assembly, power window motor')
+@section('title', 'Used Power Window Motors & Regulators | Find My Part')
+@section('meta_description', 'Find reliable used power window motors and window regulator assemblies for all doors. Tested performance. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used window motor, window regulator assembly, power window motor, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/window-motor-regulator')
+@section('og_title', 'Used Power Window Motors & Regulators | Find My Part')
+@section('og_description', 'Find reliable used power window motors and window regulator assemblies for all doors. Tested performance. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

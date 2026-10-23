@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Superchargers for Sale | High Performance Auto Parts')
-@section('meta_description', 'Boost engine performance with reliable used superchargers. Thoroughly inspected OEM supercharger units with fast shipping.')
-@section('meta_keywords', 'used supercharger, car supercharger, OEM supercharger assembly, supercharger kit')
+@section('title', 'Used Superchargers for Sale | High Performance Auto Parts - Find My Part')
+@section('meta_description', 'Boost engine performance with reliable used superchargers. Thoroughly inspected OEM supercharger units with fast shipping. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used supercharger, OEM supercharger, blower, forced induction, performance parts, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/supercharger')
+@section('og_title', 'Used Superchargers for Sale | High Performance Auto Parts - Find My Part')
+@section('og_description', 'Boost engine performance with reliable used superchargers. Thoroughly inspected OEM supercharger units with fast shipping. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

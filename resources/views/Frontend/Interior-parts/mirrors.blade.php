@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Interior Rear View Mirrors | Cars Part Shop')
-@section('meta_description', 'Shop auto-dimming and manual interior rear view mirrors. Tested factory OEM mirrors.')
-@section('meta_keywords', 'used interior mirror, rearview mirror, auto dimming mirror')
+@section('title', 'Used Interior Rear View Mirrors | Find My Part')
+@section('meta_description', 'Shop auto-dimming and manual interior rear view mirrors. Tested factory OEM mirrors. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used interior mirror, rearview mirror, auto dimming mirror, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/mirrors')
+@section('og_title', 'Used Interior Rear View Mirrors | Find My Part')
+@section('og_description', 'Shop auto-dimming and manual interior rear view mirrors. Tested factory OEM mirrors. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

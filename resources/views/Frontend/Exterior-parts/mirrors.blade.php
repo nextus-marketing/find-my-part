@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Side Mirrors & Rearview Mirrors | Cars Part Shop')
-@section('meta_description', 'Find tested used power side view mirrors, heated mirrors, and interior rearview mirrors. Direct OEM fit.')
-@section('meta_keywords', 'used side mirrors, power side mirror, door mirror assembly, rearview mirror')
+@section('title', 'Used Side Mirrors & Rearview Mirrors | Find My Part')
+@section('meta_description', 'Find tested used power side view mirrors, heated mirrors, and interior rearview mirrors. Direct OEM fit. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used side mirrors, power side mirror, door mirror assembly, rearview mirror, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/mirrors')
+@section('og_title', 'Used Side Mirrors & Rearview Mirrors | Find My Part')
+@section('og_description', 'Find tested used power side view mirrors, heated mirrors, and interior rearview mirrors. Direct OEM fit. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

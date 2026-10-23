@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Doors - Front, Rear & Hatch | Cars Part Shop')
-@section('meta_description', 'Shop complete used car doors, side doors, tailgate and hatch doors. Inspected rust-free body panels.')
-@section('meta_keywords', 'used car doors, front door assembly, rear door, tailgate, hatchback door')
+@section('title', 'Used Car Doors - Front, Rear & Hatch | Find My Part')
+@section('meta_description', 'Shop complete used car doors, side doors, tailgate and hatch doors. Inspected rust-free body panels. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car doors, front door assembly, rear door, tailgate, hatchback door, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/doors')
+@section('og_title', 'Used Car Doors - Front, Rear & Hatch | Find My Part')
+@section('og_description', 'Shop complete used car doors, side doors, tailgate and hatch doors. Inspected rust-free body panels. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

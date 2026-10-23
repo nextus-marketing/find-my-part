@@ -3,6 +3,10 @@
 @section('title', 'Contact Us - Find My Part | Call +1 (855) 347-4757')
 @section('meta_description', 'Contact Find My Part for expert help finding used car parts, engines, transmissions, and accessories. Call +1 (855) 347-4757 for immediate assistance and quote.')
 @section('meta_keywords', 'contact find my part, auto parts phone number, order used car parts, car part inquiry, Find My Part contact')
+@section('canonical', 'https://findmypart.org/contact')
+@section('og_title', 'Contact Us - Find My Part | Call +1 (855) 347-4757')
+@section('og_description', 'Contact Find My Part for expert help finding used car parts, engines, transmissions, and accessories. Call +1 (855) 347-4757 for immediate assistance and quote.')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

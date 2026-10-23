@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Shock Absorbers for Sale | Cars Part Shop')
-@section('meta_description', 'Enhance ride comfort with tested used shock absorbers. Great prices on genuine OEM suspension shocks.')
-@section('meta_keywords', 'used shock absorbers, car shocks, OEM shock absorber, suspension shock')
+@section('title', 'Used Shock Absorbers for Sale | Find My Part')
+@section('meta_description', 'Enhance ride comfort with tested used shock absorbers. Great prices on genuine OEM suspension shocks. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used shock absorbers, car shocks, OEM shock absorber, suspension shock, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/shock-absorber')
+@section('og_title', 'Used Shock Absorbers for Sale | Find My Part')
+@section('og_description', 'Enhance ride comfort with tested used shock absorbers. Great prices on genuine OEM suspension shocks. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

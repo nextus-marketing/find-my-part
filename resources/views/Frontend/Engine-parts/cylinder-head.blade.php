@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Cylinder Heads for Sale - OEM Tested | Cars Part Shop')
-@section('meta_description', 'Find durable used cylinder heads for all vehicle makes and models. Remanufactured and inspected OEM cylinder heads with warranty.')
-@section('meta_keywords', 'used cylinder head, engine cylinder head, OEM cylinder head, reconditioned cylinder head')
+@section('title', 'Used Cylinder Heads for Sale - OEM Tested | Find My Part')
+@section('meta_description', 'Find durable used cylinder heads for all vehicle makes and models. Remanufactured and inspected OEM cylinder heads with warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used cylinder head, OEM cylinder head, replacement cylinder head, engine head, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/cylinder-head')
+@section('og_title', 'Used Cylinder Heads for Sale - OEM Tested | Find My Part')
+@section('og_description', 'Find durable used cylinder heads for all vehicle makes and models. Remanufactured and inspected OEM cylinder heads with warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

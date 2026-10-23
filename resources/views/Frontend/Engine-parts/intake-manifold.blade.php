@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Intake Manifolds for Sale | Cars Part Shop')
-@section('meta_description', 'Browse quality used intake manifolds for improved air airflow and engine output. Fast fast delivery and warranty included.')
-@section('meta_keywords', 'used intake manifold, car intake manifold, OEM intake manifold replacement')
+@section('title', 'Used Intake Manifolds for Sale | Find My Part')
+@section('meta_description', 'Browse quality used intake manifolds for improved airflow and engine output. Fast delivery and warranty included. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used intake manifold, OEM intake manifold, replacement intake manifold, engine airflow, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/intake-manifold')
+@section('og_title', 'Used Intake Manifolds for Sale | Find My Part')
+@section('og_description', 'Browse quality used intake manifolds for improved airflow and engine output. Fast delivery and warranty included. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Subframes & K-Members for Sale | Cars Part Shop')
-@section('meta_description', 'Find tested used front and rear subframes for structural alignment and suspension mounting.')
-@section('meta_keywords', 'used subframe, front subframe, rear subframe, K-member, suspension subframe')
+@section('title', 'Used Subframes & K-Members for Sale | Find My Part')
+@section('meta_description', 'Find tested used front and rear subframes for structural alignment and suspension mounting. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used subframe, front subframe, rear subframe, K-member, suspension subframe, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/subframe')
+@section('og_title', 'Used Subframes & K-Members for Sale | Find My Part')
+@section('og_description', 'Find tested used front and rear subframes for structural alignment and suspension mounting. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Engine Mounts & Motor Mounts | Cars Part Shop')
-@section('meta_description', 'Reduce engine vibration with durable used motor mounts and engine mounts. Tested OEM quality for all car models.')
-@section('meta_keywords', 'used engine mount, motor mount replacement, OEM motor mounts')
+@section('title', 'Used Engine Mounts & Motor Mounts | Find My Part')
+@section('meta_description', 'Reduce engine vibration with durable used motor mounts and engine mounts. Tested OEM quality for all car models. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used engine mount, motor mount, OEM engine mount, vibration dampener, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/engine-mount')
+@section('og_title', 'Used Engine Mounts & Motor Mounts | Find My Part')
+@section('og_description', 'Reduce engine vibration with durable used motor mounts and engine mounts. Tested OEM quality for all car models. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

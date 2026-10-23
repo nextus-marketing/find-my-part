@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Radiators for Sale | Cars Part Shop')
-@section('meta_description', 'Shop high-efficiency used car radiators and cooling assemblies. Inspected for leaks and structural integrity.')
-@section('meta_keywords', 'used radiator, car radiator replacement, OEM car radiator, engine cooling radiator')
+@section('title', 'Used Car Radiators for Sale | Find My Part')
+@section('meta_description', 'Shop high-efficiency used car radiators and cooling assemblies. Inspected for leaks and structural integrity. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car radiator, OEM radiator, replacement radiator, engine cooling, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/radiator')
+@section('og_title', 'Used Car Radiators for Sale | Find My Part')
+@section('og_description', 'Shop high-efficiency used car radiators and cooling assemblies. Inspected for leaks and structural integrity. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

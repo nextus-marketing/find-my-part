@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Airbag Modules & Steering Wheel Airbags | Cars Part Shop')
-@section('meta_description', 'Find tested OEM airbag modules, driver steering wheel airbags, passenger dash airbags, and side curtains.')
-@section('meta_keywords', 'used airbag module, driver airbag, passenger airbag, side curtain airbag')
+@section('title', 'Used Airbag Modules & Steering Wheel Airbags | Find My Part')
+@section('meta_description', 'Find tested OEM airbag modules, driver steering wheel airbags, passenger dash airbags, and side curtains. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used airbag module, driver airbag, passenger airbag, side curtain airbag, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/air-bag')
+@section('og_title', 'Used Airbag Modules & Steering Wheel Airbags | Find My Part')
+@section('og_description', 'Find tested OEM airbag modules, driver steering wheel airbags, passenger dash airbags, and side curtains. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

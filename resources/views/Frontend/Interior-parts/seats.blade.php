@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Seats & Leather Bucket Seats | Cars Part Shop')
-@section('meta_description', 'Shop comfortable used driver, passenger, and rear car seats. Genuine leather and cloth interior seating.')
-@section('meta_keywords', 'used car seats, leather bucket seats, driver seat replacement, rear bench seat')
+@section('title', 'Used Car Seats & Leather Bucket Seats | Find My Part')
+@section('meta_description', 'Shop comfortable used driver, passenger, and rear car seats. Genuine leather and cloth interior seating. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car seats, leather bucket seats, driver seat replacement, rear bench seat, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/seats')
+@section('og_title', 'Used Car Seats & Leather Bucket Seats | Find My Part')
+@section('og_description', 'Shop comfortable used driver, passenger, and rear car seats. Genuine leather and cloth interior seating. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

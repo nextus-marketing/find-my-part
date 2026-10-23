@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Tail Lights & Rear Lamps | Cars Part Shop')
-@section('meta_description', 'Buy clean used tail light assemblies and brake lamps. Genuine OEM fitment for all vehicle makes and models.')
-@section('meta_keywords', 'used tail light, tail lamp assembly, rear light replacement, OEM tail light')
+@section('title', 'Used Tail Lights & Rear Lamps | Find My Part')
+@section('meta_description', 'Buy clean used tail light assemblies and brake lamps. Genuine OEM fitment for all vehicle makes and models. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used tail light, tail lamp assembly, rear light replacement, OEM tail light, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/tail-light')
+@section('og_title', 'Used Tail Lights & Rear Lamps | Find My Part')
+@section('og_description', 'Buy clean used tail light assemblies and brake lamps. Genuine OEM fitment for all vehicle makes and models. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Interior Car Parts & Cabin Accessories | Cars Part Shop')
-@section('meta_description', 'Buy premium OEM used car interior parts including car seats, seat belts, center consoles, sun visors, airbags & steering wheels at discounted prices.')
-@section('meta_keywords', 'used interior car parts, car seats, seat belts, center console, sun visor, rear view mirror, airbags, car steering wheel')
+@section('title', 'Used Interior Car Parts & Cabin Accessories | Find My Part')
+@section('meta_description', 'Buy premium OEM used car interior parts including car seats, seat belts, center consoles, sun visors, airbags & steering wheels at discounted prices. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used interior car parts, car seats, seat belts, center console, sun visor, rear view mirror, airbags, car steering wheel, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts')
+@section('og_title', 'Used Interior Car Parts & Cabin Accessories | Find My Part')
+@section('og_description', 'Buy premium OEM used car interior parts including car seats, seat belts, center consoles, sun visors, airbags & steering wheels at discounted prices. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

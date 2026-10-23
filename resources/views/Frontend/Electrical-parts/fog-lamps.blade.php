@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Fog Lights & Driving Lamps | Cars Part Shop')
-@section('meta_description', 'Find quality used fog lamps and bumper driving lights for improved night and bad weather visibility.')
-@section('meta_keywords', 'used fog lamps, fog lights, bumper fog lamp assembly, driving lights')
+@section('title', 'Used Fog Lights & Driving Lamps | Find My Part')
+@section('meta_description', 'Find quality used fog lamps and bumper driving lights for improved night and bad weather visibility. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used fog lamps, fog lights, bumper fog lamp assembly, driving lights, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/fog-lamps')
+@section('og_title', 'Used Fog Lights & Driving Lamps | Find My Part')
+@section('og_description', 'Find quality used fog lamps and bumper driving lights for improved night and bad weather visibility. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

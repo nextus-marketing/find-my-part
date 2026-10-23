@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Bumpers & Bumper Covers - Front & Rear | Cars Part Shop')
-@section('meta_description', 'Shop clean used front and rear bumpers, bumper covers and reinforcement bars. Factory OEM fitment.')
-@section('meta_keywords', 'used bumper, front bumper cover, rear bumper, bumper reinforcement')
+@section('title', 'Used Bumpers & Bumper Covers - Front & Rear | Find My Part')
+@section('meta_description', 'Shop clean used front and rear bumpers, bumper covers and reinforcement bars. Factory OEM fitment. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used bumper, front bumper cover, rear bumper, bumper reinforcement, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/bumpers')
+@section('og_title', 'Used Bumpers & Bumper Covers - Front & Rear | Find My Part')
+@section('og_description', 'Shop clean used front and rear bumpers, bumper covers and reinforcement bars. Factory OEM fitment. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

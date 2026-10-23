@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Fenders for Sale | Cars Part Shop')
-@section('meta_description', 'Find rust-free used front fenders and quarter panel covers. Direct fit OEM body parts with warranty.')
-@section('meta_keywords', 'used fenders, front fender panel, driver side fender, passenger side fender')
+@section('title', 'Used Car Fenders for Sale | Find My Part')
+@section('meta_description', 'Find rust-free used front fenders and quarter panel covers. Direct fit OEM body parts with warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used fenders, front fender panel, driver side fender, passenger side fender, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/fenders')
+@section('og_title', 'Used Car Fenders for Sale | Find My Part')
+@section('og_description', 'Find rust-free used front fenders and quarter panel covers. Direct fit OEM body parts with warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

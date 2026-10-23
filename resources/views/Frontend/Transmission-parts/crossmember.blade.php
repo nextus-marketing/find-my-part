@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Transmission Crossmembers for Sale | Cars Part Shop')
-@section('meta_description', 'Buy OEM used transmission crossmembers and frame supports. Heavy duty replacement parts with warranty.')
-@section('meta_keywords', 'used crossmember, transmission crossmember, frame crossmember support')
+@section('title', 'Used Transmission Crossmembers for Sale | Find My Part')
+@section('meta_description', 'Buy OEM used transmission crossmembers and frame supports. Heavy duty replacement parts with warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used crossmember, transmission crossmember, frame crossmember support, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/crossmember')
+@section('og_title', 'Used Transmission Crossmembers for Sale | Find My Part')
+@section('og_description', 'Buy OEM used transmission crossmembers and frame supports. Heavy duty replacement parts with warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

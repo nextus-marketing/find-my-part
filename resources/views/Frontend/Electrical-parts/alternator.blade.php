@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Alternators for Sale - Tested OEM | Cars Part Shop')
-@section('meta_description', 'Buy fully tested used alternators for reliable battery charging. Inspected voltage output and fast shipping.')
-@section('meta_keywords', 'used alternator, car alternator, OEM alternator replacement, alternator unit')
+@section('title', 'Used Alternators for Sale - Tested OEM | Find My Part')
+@section('meta_description', 'Buy fully tested used alternators for reliable battery charging. Inspected voltage output and fast shipping. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used alternator, OEM alternator, car alternator replacement, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/alternator')
+@section('og_title', 'Used Alternators for Sale - Tested OEM | Find My Part')
+@section('og_description', 'Buy fully tested used alternators for reliable battery charging. Inspected voltage output and fast shipping. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

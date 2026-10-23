@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Turbochargers for Sale | Tested OEM Turbos - Cars Part Shop')
-@section('meta_description', 'Find top quality used turbochargers for sale. Fully tested turbo assemblies to restore boost and performance to your engine.')
-@section('meta_keywords', 'used turbocharger, car turbo, OEM turbocharger, turbo replacement')
+@section('title', 'Used Turbochargers for Sale | Tested OEM Turbos - Find My Part')
+@section('meta_description', 'Find top quality used turbochargers for sale. Fully tested turbo assemblies to restore boost and performance to your engine. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used turbocharger, OEM turbocharger, turbo for sale, boost performance, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/turbocharger')
+@section('og_title', 'Used Turbochargers for Sale | Tested OEM Turbos - Find My Part')
+@section('og_description', 'Find top quality used turbochargers for sale. Fully tested turbo assemblies to restore boost and performance to your engine. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

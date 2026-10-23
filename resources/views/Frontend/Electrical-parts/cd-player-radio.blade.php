@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Radios & CD Players | Cars Part Shop')
-@section('meta_description', 'Shop genuine OEM used car radios, head units, and CD players. Tested audio units for factory replacement.')
-@section('meta_keywords', 'used car radio, OEM head unit, car CD player, factory stereo replacement')
+@section('title', 'Used Car Radios & CD Players | Find My Part')
+@section('meta_description', 'Shop genuine OEM used car radios, head units, and CD players. Tested audio units for factory replacement. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car radio, OEM head unit, car CD player, factory stereo replacement, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/cd-player-radio')
+@section('og_title', 'Used Car Radios & CD Players | Find My Part')
+@section('og_description', 'Shop genuine OEM used car radios, head units, and CD players. Tested audio units for factory replacement. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

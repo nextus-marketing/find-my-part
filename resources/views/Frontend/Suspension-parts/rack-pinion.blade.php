@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Rack and Pinion Steering Units for Sale | Cars Part Shop')
-@section('meta_description', 'Shop tested used rack and pinion power steering gear assemblies. Smooth handling and precise steering control.')
-@section('meta_keywords', 'used rack and pinion, power steering rack, steering gear assembly')
+@section('title', 'Used Rack and Pinion Steering Units for Sale | Find My Part')
+@section('meta_description', 'Shop tested used rack and pinion power steering gear assemblies. Smooth handling and precise steering control. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used rack and pinion, power steering rack, steering gear assembly, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/rack-pinion')
+@section('og_title', 'Used Rack and Pinion Steering Units for Sale | Find My Part')
+@section('og_description', 'Shop tested used rack and pinion power steering gear assemblies. Smooth handling and precise steering control. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

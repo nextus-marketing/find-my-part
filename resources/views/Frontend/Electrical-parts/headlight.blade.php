@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Headlights & Headlamp Assemblies | Cars Part Shop')
-@section('meta_description', 'Shop clear tested used headlight assemblies, halogen, LED and Xenon headlamps. Fast shipping and warranty.')
-@section('meta_keywords', 'used headlights, headlamp assembly, OEM headlight unit, car headlight replacement')
+@section('title', 'Used Headlights & Headlamp Assemblies | Find My Part')
+@section('meta_description', 'Shop clear tested used headlight assemblies, halogen, LED and Xenon headlamps. Fast shipping and warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used headlights, headlamp assembly, OEM headlight unit, car headlight replacement, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/headlight')
+@section('og_title', 'Used Headlights & Headlamp Assemblies | Find My Part')
+@section('og_description', 'Shop clear tested used headlight assemblies, halogen, LED and Xenon headlamps. Fast shipping and warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

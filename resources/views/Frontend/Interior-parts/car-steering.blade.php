@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Steering Wheels & Leather Wheels | Cars Part Shop')
-@section('meta_description', 'Shop original used steering wheels with audio controls, leather wrap, and horn buttons. Direct fit replacement.')
-@section('meta_keywords', 'used steering wheel, leather steering wheel, OEM steering wheel with controls')
+@section('title', 'Used Steering Wheels & Leather Wheels | Find My Part')
+@section('meta_description', 'Shop original used steering wheels with audio controls, leather wrap, and horn buttons. Direct fit replacement. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used steering wheel, leather steering wheel, OEM steering wheel with controls, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/car-steering')
+@section('og_title', 'Used Steering Wheels & Leather Wheels | Find My Part')
+@section('og_description', 'Shop original used steering wheels with audio controls, leather wrap, and horn buttons. Direct fit replacement. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Wiper Motors - Front & Rear | Cars Part Shop')
-@section('meta_description', 'Shop tested used windshield wiper motors for clear visibility in bad weather. Fast delivery nationwide.')
-@section('meta_keywords', 'used wiper motor, windshield wiper motor, front wiper motor, rear wiper motor')
+@section('title', 'Used Wiper Motors - Front & Rear | Find My Part')
+@section('meta_description', 'Shop tested used windshield wiper motors for clear visibility in bad weather. Fast delivery nationwide. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used wiper motor, windshield wiper motor, front wiper motor, rear wiper motor, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/wiper-motor')
+@section('og_title', 'Used Wiper Motors - Front & Rear | Find My Part')
+@section('og_description', 'Shop tested used windshield wiper motors for clear visibility in bad weather. Fast delivery nationwide. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

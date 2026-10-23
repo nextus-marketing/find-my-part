@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used ABS Modules & Anti-Lock Brake Units | Cars Part Shop')
-@section('meta_description', 'Buy tested used ABS pump modules and anti-lock brake control units. Restores braking safety and control.')
-@section('meta_keywords', 'used ABS unit, ABS module, anti-lock brake pump, ABS controller')
+@section('title', 'Used ABS Modules & Anti-Lock Brake Units | Find My Part')
+@section('meta_description', 'Buy tested used ABS pump modules and anti-lock brake control units. Restores braking safety and control. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used ABS unit, ABS module, anti-lock brake pump, ABS controller, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/abs-unit')
+@section('og_title', 'Used ABS Modules & Anti-Lock Brake Units | Find My Part')
+@section('og_description', 'Buy tested used ABS pump modules and anti-lock brake control units. Restores braking safety and control. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

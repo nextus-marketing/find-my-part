@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Starter Motors for Sale | Cars Part Shop')
-@section('meta_description', 'Shop tested used starters for fast engine starting. Guaranteed solenoid function and gear engagement.')
-@section('meta_keywords', 'used starter motor, car starter, OEM starter replacement, engine starter')
+@section('title', 'Used Starter Motors for Sale | Find My Part')
+@section('meta_description', 'Shop tested used starters for fast engine starting. Guaranteed solenoid function and gear engagement. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used starter motor, car starter, OEM starter replacement, engine starter, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/starter')
+@section('og_title', 'Used Starter Motors for Sale | Find My Part')
+@section('og_description', 'Shop tested used starters for fast engine starting. Guaranteed solenoid function and gear engagement. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

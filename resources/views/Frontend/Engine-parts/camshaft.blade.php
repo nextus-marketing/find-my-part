@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Quality Used Camshafts for Sale | Cars Part Shop')
-@section('meta_description', 'Shop genuine tested used camshafts for domestic and import vehicles. Restore engine timing and performance at low prices.')
-@section('meta_keywords', 'used camshaft, engine camshaft, OEM camshaft replacement, performance camshaft')
+@section('title', 'Quality Used Camshafts for Sale | Find My Part')
+@section('meta_description', 'Shop genuine tested used camshafts for domestic and import vehicles. Restore engine timing and performance at low prices. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used camshaft, replacement camshaft, OEM camshaft, engine timing, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/camshaft')
+@section('og_title', 'Quality Used Camshafts for Sale | Find My Part')
+@section('og_description', 'Shop genuine tested used camshafts for domestic and import vehicles. Restore engine timing and performance at low prices. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

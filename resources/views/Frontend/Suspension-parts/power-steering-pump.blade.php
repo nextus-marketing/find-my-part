@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Power Steering Pumps for Sale | Cars Part Shop')
-@section('meta_description', 'Buy inspected used power steering pumps. Guaranteed pressure output and quiet operation for easy steering.')
-@section('meta_keywords', 'used power steering pump, car steering pump, OEM power steering assembly')
+@section('title', 'Used Power Steering Pumps for Sale | Find My Part')
+@section('meta_description', 'Buy inspected used power steering pumps. Guaranteed pressure output and quiet operation for easy steering. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used power steering pump, car steering pump, OEM power steering assembly, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/power-steering-pump')
+@section('og_title', 'Used Power Steering Pumps for Sale | Find My Part')
+@section('og_description', 'Buy inspected used power steering pumps. Guaranteed pressure output and quiet operation for easy steering. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

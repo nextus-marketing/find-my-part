@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Fender Flares & Moldings | Cars Part Shop')
-@section('meta_description', 'Find clean used fender flares, wheel arch trim, and body side moldings for trucks and SUVs.')
-@section('meta_keywords', 'used fender flares, wheel arch flare, body side molding, truck fender flare')
+@section('title', 'Used Fender Flares & Moldings | Find My Part')
+@section('meta_description', 'Find clean used fender flares, wheel arch trim, and body side moldings for trucks and SUVs. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used fender flares, wheel arch flare, body side molding, truck fender flare, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/fender-flare')
+@section('og_title', 'Used Fender Flares & Moldings | Find My Part')
+@section('og_description', 'Find clean used fender flares, wheel arch trim, and body side moldings for trucks and SUVs. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Catalytic Converters for Sale | Cars Part Shop')
-@section('meta_description', 'Find quality used catalytic converters for emissions compliance and exhaust performance. Inspected OEM replacement parts.')
-@section('meta_keywords', 'used catalytic converter, car catalytic converter, OEM exhaust converter')
+@section('title', 'Used Catalytic Converters for Sale | Find My Part')
+@section('meta_description', 'Find quality used catalytic converters for emissions compliance and exhaust performance. Inspected OEM replacement parts. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used catalytic converter, OEM catalytic converter, replacement catalytic converter, emissions, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/catalytic-converter')
+@section('og_title', 'Used Catalytic Converters for Sale | Find My Part')
+@section('og_description', 'Find quality used catalytic converters for emissions compliance and exhaust performance. Inspected OEM replacement parts. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

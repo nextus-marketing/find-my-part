@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Seat Belts & Retractors | Cars Part Shop')
-@section('meta_description', 'Buy safety-tested used seat belt assemblies, buckle latches, and seat belt retractors for all seating rows.')
-@section('meta_keywords', 'used seat belts, seat belt retractor, safety belt assembly, seat belt buckle')
+@section('title', 'Used Seat Belts & Retractors | Find My Part')
+@section('meta_description', 'Buy safety-tested used seat belt assemblies, buckle latches, and seat belt retractors for all seating rows. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used seat belts, seat belt retractor, safety belt assembly, seat belt buckle, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/seat-belts')
+@section('og_title', 'Used Seat Belts & Retractors | Find My Part')
+@section('og_description', 'Buy safety-tested used seat belt assemblies, buckle latches, and seat belt retractors for all seating rows. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

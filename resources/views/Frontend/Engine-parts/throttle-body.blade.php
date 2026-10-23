@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Throttle Bodies for Sale | Cars Part Shop')
-@section('meta_description', 'Get reliable used electronic and mechanical throttle bodies. OEM performance at a fraction of dealer prices.')
-@section('meta_keywords', 'used throttle body, car throttle body, OEM throttle body assembly')
+@section('title', 'Used Throttle Bodies for Sale | Find My Part')
+@section('meta_description', 'Get reliable used electronic and mechanical throttle bodies. OEM performance at a fraction of dealer prices. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used throttle body, OEM throttle body, electronic throttle, replacement throttle body, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/throttle-body')
+@section('og_title', 'Used Throttle Bodies for Sale | Find My Part')
+@section('og_description', 'Get reliable used electronic and mechanical throttle bodies. OEM performance at a fraction of dealer prices. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

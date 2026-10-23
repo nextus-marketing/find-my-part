@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Ignition Switches & Lock Cylinders | Cars Part Shop')
-@section('meta_description', 'Find tested used ignition switches and key lock cylinder assemblies. Quality OEM electrical components.')
-@section('meta_keywords', 'used ignition switch, ignition lock cylinder, car ignition assembly')
+@section('title', 'Used Ignition Switches & Lock Cylinders | Find My Part')
+@section('meta_description', 'Find tested used ignition switches and key lock cylinder assemblies. Quality OEM electrical components. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used ignition switch, ignition lock cylinder, car ignition assembly, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/ignition-switch')
+@section('og_title', 'Used Ignition Switches & Lock Cylinders | Find My Part')
+@section('og_description', 'Find tested used ignition switches and key lock cylinder assemblies. Quality OEM electrical components. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -2,6 +2,10 @@
 @section('title', 'Terms and Conditions - Find My Part')
 @section('meta_description', 'Read the Terms and Conditions of Find My Part governing auto part sales, warranty policies, shipping, returns, and website usage.')
 @section('meta_keywords', 'terms and conditions, Find My Part terms, warranty policy, return policy car parts')
+@section('canonical', 'https://findmypart.org/terms-of-conditions')
+@section('og_title', 'Terms and Conditions - Find My Part')
+@section('og_description', 'Read the Terms and Conditions of Find My Part governing auto part sales, warranty policies, shipping, returns, and website usage.')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 @section('content')
 
 <style>

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Front Grilles & Grille Inserts | Cars Part Shop')
-@section('meta_description', 'Shop stylish OEM used front grilles, radiator grilles, and bumper mesh inserts for classic to modern cars.')
-@section('meta_keywords', 'used front grille, radiator grille, chrome grille insert, car grille')
+@section('title', 'Used Front Grilles & Grille Inserts | Find My Part')
+@section('meta_description', 'Shop stylish OEM used front grilles, radiator grilles, and bumper mesh inserts for classic to modern cars. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used front grille, radiator grille, chrome grille insert, car grille, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/grilles')
+@section('og_title', 'Used Front Grilles & Grille Inserts | Find My Part')
+@section('og_description', 'Shop stylish OEM used front grilles, radiator grilles, and bumper mesh inserts for classic to modern cars. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

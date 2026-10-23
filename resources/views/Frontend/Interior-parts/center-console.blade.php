@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Center Consoles & Armrests | Cars Part Shop')
-@section('meta_description', 'Shop clean used floor center consoles, armrest storage boxes, and cup holder assemblies.')
-@section('meta_keywords', 'used center console, car armrest, floor console assembly, cup holder console')
+@section('title', 'Used Center Consoles & Armrests | Find My Part')
+@section('meta_description', 'Shop clean used floor center consoles, armrest storage boxes, and cup holder assemblies. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used center console, car armrest, floor console assembly, cup holder console, Find My Part')
+@section('canonical', 'https://findmypart.org/interior-parts/center-console')
+@section('og_title', 'Used Center Consoles & Armrests | Find My Part')
+@section('og_description', 'Shop clean used floor center consoles, armrest storage boxes, and cup holder assemblies. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

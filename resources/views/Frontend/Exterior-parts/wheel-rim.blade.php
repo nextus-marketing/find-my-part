@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Wheels & OEM Rims for Sale | Cars Part Shop')
-@section('meta_description', 'Buy original factory used alloy wheels, aluminum rims, and steel wheels. Inspected for straightness.')
-@section('meta_keywords', 'used wheel rims, OEM alloy wheels, factory rims, aluminum car wheels')
+@section('title', 'Used Wheels & OEM Rims for Sale | Find My Part')
+@section('meta_description', 'Buy original factory used alloy wheels, aluminum rims, and steel wheels. Inspected for straightness. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used wheel rims, OEM alloy wheels, factory rims, aluminum car wheels, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/wheel-rim')
+@section('og_title', 'Used Wheels & OEM Rims for Sale | Find My Part')
+@section('og_description', 'Buy original factory used alloy wheels, aluminum rims, and steel wheels. Inspected for straightness. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

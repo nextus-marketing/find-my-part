@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Car Hoods & Engine Covers | Cars Part Shop')
-@section('meta_description', 'Buy clean used engine hoods and hood latches for all vehicle makes. Factory steel and aluminum hoods.')
-@section('meta_keywords', 'used car hood, engine hood panel, OEM hood replacement')
+@section('title', 'Used Car Hoods & Engine Covers | Find My Part')
+@section('meta_description', 'Buy clean used engine hoods and hood latches for all vehicle makes. Factory steel and aluminum hoods. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car hood, engine hood panel, OEM hood replacement, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/hood')
+@section('og_title', 'Used Car Hoods & Engine Covers | Find My Part')
+@section('og_description', 'Buy clean used engine hoods and hood latches for all vehicle makes. Factory steel and aluminum hoods. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

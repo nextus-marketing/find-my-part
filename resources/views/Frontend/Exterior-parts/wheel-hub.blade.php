@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Wheel Hub Assemblies & Bearings | Cars Part Shop')
-@section('meta_description', 'Shop inspected used wheel hub assemblies and wheel bearings. Smooth, noise-free wheel rotation.')
-@section('meta_keywords', 'used wheel hub, wheel hub bearing assembly, front wheel hub, rear wheel hub')
+@section('title', 'Used Wheel Hub Assemblies & Bearings | Find My Part')
+@section('meta_description', 'Shop inspected used wheel hub assemblies and wheel bearings. Smooth, noise-free wheel rotation. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used wheel hub, wheel hub bearing assembly, front wheel hub, rear wheel hub, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts/wheel-hub')
+@section('og_title', 'Used Wheel Hub Assemblies & Bearings | Find My Part')
+@section('og_description', 'Shop inspected used wheel hub assemblies and wheel bearings. Smooth, noise-free wheel rotation. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

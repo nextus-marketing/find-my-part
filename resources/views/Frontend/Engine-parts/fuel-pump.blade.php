@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Fuel Pumps for Sale - Tested OEM Assemblies | Cars Part Shop')
-@section('meta_description', 'Find reliable used fuel pumps and fuel delivery assemblies. Inspected for proper pressure and performance.')
-@section('meta_keywords', 'used fuel pump, car fuel pump assembly, electric fuel pump, OEM fuel pump')
+@section('title', 'Used Fuel Pumps for Sale - Tested OEM Assemblies | Find My Part')
+@section('meta_description', 'Find reliable used fuel pumps and fuel delivery assemblies. Inspected for proper pressure and performance. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used fuel pump, OEM fuel pump, replacement fuel pump, fuel delivery, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/fuel-pump')
+@section('og_title', 'Used Fuel Pumps for Sale - Tested OEM Assemblies | Find My Part')
+@section('og_description', 'Find reliable used fuel pumps and fuel delivery assemblies. Inspected for proper pressure and performance. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

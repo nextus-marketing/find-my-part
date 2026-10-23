@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Transmission Parts & Gearboxes | Cars Part Shop')
-@section('meta_description', 'Find top-rated tested used automatic and manual transmissions, drive shafts, axle shafts, cradles & subframes with fast shipping and warranty.')
-@section('meta_keywords', 'used transmission parts, car gearbox, drive shaft, axle shaft, transmission cradle, subframe, floor shifter, OEM transmission')
+@section('title', 'Used Transmission Parts & Gearboxes | Find My Part')
+@section('meta_description', 'Find top-rated tested used automatic and manual transmissions, drive shafts, axle shafts, cradles & subframes with fast shipping and warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used transmission parts, car gearbox, drive shaft, axle shaft, transmission cradle, subframe, floor shifter, OEM transmission, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts')
+@section('og_title', 'Used Transmission Parts & Gearboxes | Find My Part')
+@section('og_description', 'Find top-rated tested used automatic and manual transmissions, drive shafts, axle shafts, cradles & subframes with fast shipping and warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Turbo Chargers for Sale | Cars Part Shop')
-@section('meta_description', 'Shop reliable used turbo chargers for cars, trucks, and SUVs. Guaranteed OEM fitment and quality performance.')
-@section('meta_keywords', 'used turbo charger, turbocharger unit, OEM turbo charger')
+@section('title', 'Used Turbo Chargers for Sale | Find My Part')
+@section('meta_description', 'Shop reliable used turbo chargers for cars, trucks, and SUVs. Guaranteed OEM fitment and quality performance. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used turbo charger, turbo for sale, OEM turbo, forced induction, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/turbo-charger')
+@section('og_title', 'Used Turbo Chargers for Sale | Find My Part')
+@section('og_description', 'Shop reliable used turbo chargers for cars, trucks, and SUVs. Guaranteed OEM fitment and quality performance. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

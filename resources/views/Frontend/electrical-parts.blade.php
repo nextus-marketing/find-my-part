@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Electrical Parts & Electronics | Cars Part Shop')
-@section('meta_description', 'High quality tested auto electrical components including alternators, starters, fuse boxes, instrument clusters, headlights, tail lights & ABS modules.')
-@section('meta_keywords', 'used car electrical parts, alternator, starter motor, fuse box, instrument cluster, headlights, tail lights, ABS module')
+@section('title', 'Used Electrical Parts & Electronics | Find My Part')
+@section('meta_description', 'High quality tested auto electrical components including alternators, starters, fuse boxes, instrument clusters, headlights, tail lights & ABS modules. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used car electrical parts, alternator, starter motor, fuse box, instrument cluster, headlights, tail lights, ABS module, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts')
+@section('og_title', 'Used Electrical Parts & Electronics | Find My Part')
+@section('og_description', 'High quality tested auto electrical components including alternators, starters, fuse boxes, instrument clusters, headlights, tail lights & ABS modules. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

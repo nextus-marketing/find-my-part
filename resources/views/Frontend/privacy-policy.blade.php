@@ -2,6 +2,10 @@
 @section('title', 'Privacy Policy - Find My Part')
 @section('meta_description', 'Read the Privacy Policy of Find My Part. Learn how we collect, protect, and use your personal information when purchasing used auto parts.')
 @section('meta_keywords', 'privacy policy, Find My Part privacy, data protection, auto parts shop privacy')
+@section('canonical', 'https://findmypart.org/privacy-policy')
+@section('og_title', 'Privacy Policy - Find My Part')
+@section('og_description', 'Read the Privacy Policy of Find My Part. Learn how we collect, protect, and use your personal information when purchasing used auto parts.')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 @section('content')
 
 <style>

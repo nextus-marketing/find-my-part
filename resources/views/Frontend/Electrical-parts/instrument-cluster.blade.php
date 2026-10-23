@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Instrument Clusters & Speedometers | Cars Part Shop')
-@section('meta_description', 'Buy tested used instrument clusters, speedometers, and dash display panels. Guaranteed working condition.')
-@section('meta_keywords', 'used instrument cluster, speedometer gauge, dash cluster assembly')
+@section('title', 'Used Instrument Clusters & Speedometers | Find My Part')
+@section('meta_description', 'Buy tested used instrument clusters, speedometers, and dash display panels. Guaranteed working condition. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used instrument cluster, speedometer gauge, dash cluster assembly, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/instrument-cluster')
+@section('og_title', 'Used Instrument Clusters & Speedometers | Find My Part')
+@section('og_description', 'Buy tested used instrument clusters, speedometers, and dash display panels. Guaranteed working condition. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

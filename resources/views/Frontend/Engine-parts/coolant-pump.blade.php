@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Coolant & Water Pumps for Sale | Cars Part Shop')
-@section('meta_description', 'Prevent engine overheating with tested used coolant pumps and water pumps. Guaranteed fit and warranty.')
-@section('meta_keywords', 'used coolant pump, used water pump, engine water pump, OEM coolant pump')
+@section('title', 'Used Coolant & Water Pumps for Sale | Find My Part')
+@section('meta_description', 'Prevent engine overheating with tested used coolant pumps and water pumps. Guaranteed fit and warranty. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used coolant pump, used water pump, OEM water pump, engine cooling, Find My Part')
+@section('canonical', 'https://findmypart.org/engine-parts/coolant-pump')
+@section('og_title', 'Used Coolant & Water Pumps for Sale | Find My Part')
+@section('og_description', 'Prevent engine overheating with tested used coolant pumps and water pumps. Guaranteed fit and warranty. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

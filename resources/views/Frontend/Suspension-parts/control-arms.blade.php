@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Control Arms - Upper & Lower | Cars Part Shop')
-@section('meta_description', 'Find quality used upper and lower control arms with ball joints. Inspected for alignment and bushing wear.')
-@section('meta_keywords', 'used control arms, lower control arm, upper control arm, suspension control arm')
+@section('title', 'Used Control Arms - Upper & Lower | Find My Part')
+@section('meta_description', 'Find quality used upper and lower control arms with ball joints. Inspected for alignment and bushing wear. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used control arms, lower control arm, upper control arm, suspension control arm, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/control-arms')
+@section('og_title', 'Used Control Arms - Upper & Lower | Find My Part')
+@section('og_description', 'Find quality used upper and lower control arms with ball joints. Inspected for alignment and bushing wear. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

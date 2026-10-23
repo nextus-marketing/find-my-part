@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Fuse Boxes & Power Distribution Modules | Cars Part Shop')
-@section('meta_description', 'Shop clean tested used fuse boxes and junction boxes. Reliable electrical connections for your car.')
-@section('meta_keywords', 'used fuse box, power distribution box, junction box, engine fuse box')
+@section('title', 'Used Fuse Boxes & Power Distribution Modules | Find My Part')
+@section('meta_description', 'Shop clean tested used fuse boxes and junction boxes. Reliable electrical connections for your car. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used fuse box, power distribution box, junction box, engine fuse box, Find My Part')
+@section('canonical', 'https://findmypart.org/electrical-parts/fuse-box')
+@section('og_title', 'Used Fuse Boxes & Power Distribution Modules | Find My Part')
+@section('og_description', 'Shop clean tested used fuse boxes and junction boxes. Reliable electrical connections for your car. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

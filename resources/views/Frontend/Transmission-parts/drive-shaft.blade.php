@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Drive Shafts & Driveshafts for Sale | Cars Part Shop')
-@section('meta_description', 'Find inspected used drive shafts for rear-wheel and all-wheel drive vehicles. Fast shipping and warranty included.')
-@section('meta_keywords', 'used drive shaft, driveshaft assembly, OEM driveshaft, prop shaft')
+@section('title', 'Used Drive Shafts & Driveshafts for Sale | Find My Part')
+@section('meta_description', 'Find inspected used drive shafts for rear-wheel and all-wheel drive vehicles. Fast shipping and warranty included. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used drive shaft, driveshaft assembly, OEM driveshaft, prop shaft, Find My Part')
+@section('canonical', 'https://findmypart.org/transmission-parts/drive-shaft')
+@section('og_title', 'Used Drive Shafts & Driveshafts for Sale | Find My Part')
+@section('og_description', 'Find inspected used drive shafts for rear-wheel and all-wheel drive vehicles. Fast shipping and warranty included. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

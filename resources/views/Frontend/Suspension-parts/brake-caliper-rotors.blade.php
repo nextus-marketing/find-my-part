@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Brake Calipers & Rotors | Cars Part Shop')
-@section('meta_description', 'Shop tested used brake calipers and brake rotor assemblies. Safe stopping power at affordable prices.')
-@section('meta_keywords', 'used brake caliper, brake rotors, disc brake caliper, OEM brake caliper')
+@section('title', 'Used Brake Calipers & Rotors | Find My Part')
+@section('meta_description', 'Shop tested used brake calipers and brake rotor assemblies. Safe stopping power at affordable prices. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used brake caliper, brake rotors, disc brake caliper, OEM brake caliper, Find My Part')
+@section('canonical', 'https://findmypart.org/suspension-parts/brake-caliper-rotors')
+@section('og_title', 'Used Brake Calipers & Rotors | Find My Part')
+@section('og_description', 'Shop tested used brake calipers and brake rotor assemblies. Safe stopping power at affordable prices. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

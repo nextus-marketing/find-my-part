@@ -1,7 +1,11 @@
 @extends('layouts.frontend')
-@section('title', 'Used Exterior Car Body Parts & Panels | Cars Part Shop')
-@section('meta_description', 'Shop original used exterior car body parts, bumpers, fenders, doors, hoods, grilles, side mirrors & wheel rims with fast shipping.')
-@section('meta_keywords', 'used exterior car parts, car body panels, bumpers, fenders, doors, hood, side mirrors, grilles, wheel rims')
+@section('title', 'Used Exterior Car Body Parts & Panels | Find My Part')
+@section('meta_description', 'Shop original used exterior car body parts, bumpers, fenders, doors, hoods, grilles, side mirrors & wheel rims with fast shipping. Call +1 (855) 347-4757!')
+@section('meta_keywords', 'used exterior car parts, car body panels, bumpers, fenders, doors, hood, side mirrors, grilles, wheel rims, Find My Part')
+@section('canonical', 'https://findmypart.org/exterior-parts')
+@section('og_title', 'Used Exterior Car Body Parts & Panels | Find My Part')
+@section('og_description', 'Shop original used exterior car body parts, bumpers, fenders, doors, hoods, grilles, side mirrors & wheel rims with fast shipping. Call +1 (855) 347-4757!')
+@section('og_image', asset('frontend/images/my-img/logo/logo.jpg'))
 
 @push('schema')
 <script type="application/ld+json">

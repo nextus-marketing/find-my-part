@@ -306,7 +306,7 @@
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Last updated: October 12, 2022</li>
+                                <li class="breadcrumb-item active" aria-current="page">Last updated: October 27, 2026</li>
                             </ol>
                         </nav>
                     </div>
@@ -333,8 +333,7 @@
                     <li><a href="#disclaimer">AS IS & AS AVAILABLE</a></li>
                     <li><a href="#governing">Governing Law</a></li>
                     <li><a href="#disputes">Disputes Resolution</a></li>
-                    <li><a href="#eu">EU Users</a></li>
-                    <li><a href="#us-compliance">US Legal Compliance</a></li>
+                    <li><a href="#legal-compliance">Legal Compliance</a></li>
                     <li><a href="#severability">Severability & Waiver</a></li>
                     <li><a href="#translation">Translation Interpretation</a></li>
                     <li><a href="#changes">Changes to Terms</a></li>
@@ -349,7 +348,7 @@
             <!-- Introduction -->
             <div class="policy-section">
                 <p style="font-size: 1.05rem; color: var(--primary-dark); margin-bottom: 20px;">
-                    Please read these terms and conditions carefully before using our Service.
+                    Please read these terms and conditions carefully before using the Service provided by Revive Pinnacle LLC DBA Find My Part.
                 </p>
                 <p style="color: var(--text-light);">
                     These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service. By accessing or using the Service, you agree to be bound by these Terms and Conditions.
@@ -374,7 +373,7 @@
 
                     <div class="definition-item">
                         <div class="definition-term">Company</div>
-                        <div class="definition-description">Cars Part Shop, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
+                        <div class="definition-description">Revive Pinnacle LLC DBA Find My Part, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
                     </div>
 
                     <div class="definition-item">
@@ -384,7 +383,7 @@
 
                     <div class="definition-item">
                         <div class="definition-term">Service</div>
-                        <div class="definition-description">Refers to our Website accessible from https://carspartshop.com/</div>
+                        <div class="definition-description">Refers to our Website accessible from <a href="https://findmypart.org/">https://findmypart.org/</a></div>
                     </div>
 
                     <div class="definition-item">
@@ -408,7 +407,7 @@
             <div class="policy-section" id="acknowledgment">
                 <h2 class="section-title">Acknowledgment</h2>
 
-                <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and the Company. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
+                <p>These are the Terms and Conditions governing the use of this Service and the agreement that operates between You and Revive Pinnacle LLC DBA Find My Part. These Terms and Conditions set out the rights and obligations of all users regarding the use of the Service.</p>
 
                 <p>Your access to and use of the Service is conditioned on Your acceptance of and compliance with these Terms and Conditions. These Terms and Conditions apply to all visitors, users and others who access or use the Service.</p>
 
@@ -531,12 +530,12 @@
             <!-- Contact Us -->
             <div class="contact-section" id="contact">
                 <h3 style="color:#ffffff;">Questions About Our Terms and Conditions?</h3>
-                <p>If you have any questions about these Terms and Conditions, please don't hesitate to contact us:</p>
+                <p>If you have any questions about these Terms and Conditions, please don't hesitate to contact Revive Pinnacle LLC DBA Find My Part:</p>
 
                 <div class="contact-info">
                     <div class="contact-method">
                         <strong>📧 Email</strong>
-                        <a href="mailto:support@carspartshop.com">support@carspartshop.com</a>
+                        <a href="mailto:sales@findmypart.org">sales@findmypart.org</a>
                     </div>
                     <div class="contact-method">
                         <strong>📞 Phone</strong>

@@ -351,7 +351,7 @@
                         <nav class="wow fadeInUp">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="/">Home</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Last updated: October 12, 2022</li>
+                                <li class="breadcrumb-item active" aria-current="page">Last updated: October 27, 2026</li>
                             </ol>
                         </nav>
                     </div>
@@ -393,7 +393,7 @@
             <!-- Introduction -->
             <div class="policy-section">
                 <p style="font-size: 1.05rem; color: var(--primary-dark); margin-bottom: 20px;">
-                    This Privacy Policy describes our policies and procedures on the collection, use and disclosure of your information when you use our Service. It also tells you about your privacy rights and how the law protects you.
+                    This Privacy Policy describes the policies and procedures of Revive Pinnacle LLC DBA Find My Part on the collection, use and disclosure of your information when you use our Service. It also tells you about your privacy rights and how the law protects you.
                 </p>
                 <p style="color: var(--text-light);">
                     We use your Personal Data to provide and improve our Service. By using the Service, you agree to the collection and use of information in accordance with this Privacy Policy.
@@ -415,7 +415,7 @@
 
                     <div class="definition-item">
                         <div class="definition-term">Company</div>
-                        <div class="definition-description">Cars Part Shop, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
+                        <div class="definition-description">Revive Pinnacle LLC DBA Find My Part, referred to as "the Company", "We", "Us" or "Our" in this Agreement.</div>
                     </div>
 
                     <div class="definition-item">
@@ -430,7 +430,7 @@
 
                     <div class="definition-item">
                         <div class="definition-term">Service</div>
-                        <div class="definition-description">Refers to our Website accessible from https://carspartshop.com/</div>
+                        <div class="definition-description">Refers to our Website accessible from <a href="https://findmypart.org/">https://findmypart.org/</a></div>
                     </div>
 
                     <div class="definition-item">
@@ -527,7 +527,7 @@
             <div class="policy-section" id="use-data">
                 <h2 class="section-title">Use of Your Personal Data</h2>
 
-                <p>The Company may use Personal Data for the following purposes:</p>
+                <p>Revive Pinnacle LLC DBA Find My Part may use Personal Data for the following purposes:</p>
 
                 <ul>
                     <li><strong>To provide and maintain our Service:</strong> Including to monitor the usage of our Service.</li>
@@ -646,12 +646,12 @@
             <!-- Contact Us -->
             <div class="contact-section" id="contact">
                 <h3 style="color:#ffffff;">Have Questions About Our Privacy Policy?</h3>
-                <p>If you have any questions about this Privacy Policy, please don't hesitate to contact us:</p>
+                <p>If you have any questions about this Privacy Policy, please don't hesitate to contact Revive Pinnacle LLC DBA Find My Part:</p>
 
                 <div class="contact-info">
                     <div class="contact-method">
                         <strong>📧 Email</strong>
-                        <a href="mailto:support@carspartshop.com">support@carspartshop.com</a>
+                        <a href="mailto:sales@findmypart.org">sales@findmypart.org</a>
                     </div>
                     <div class="contact-method">
                         <strong>📞 Phone</strong>

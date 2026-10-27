@@ -746,8 +746,7 @@
 
                         <!-- About Footer Content Start -->
                         <div class="about-footer-content">
-                            <p>We provide high-quality used auto parts and accessories for all types of vehicles. Our mission
-                                is to deliver reliable products, competitive prices,</p>
+                            <p>We, <b>Revive Pinnacle LLC DBA Find My Part</b> provide high-quality used auto parts and accessories for all types of vehicles. Our mission is to deliver reliable products at competitive prices, ensuring customer satisfaction and dependable automotive solutions.</p>
                         </div>
                         <!-- About Footer Content End -->
 

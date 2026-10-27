@@ -250,9 +250,10 @@
                         <div class="support-contact-content">
                             <span>Visit Our Store</span>
 
-                            <a href="https://maps.app.goo.gl/Je4tzVRXAcZ6Cxvh7"
+                            <a href="https://maps.app.goo.gl/hdA7BG78adBPRUvi7"
                                 target="_blank" rel="noopener noreferrer">
-                                7340 Lee Hwy, Falls Church, VA, 22046
+                                Revive Pinnacle LLC
+                                7101 KAISER PL FALLS CHURCH, VA 22042
                             </a>
 
                             <p>
@@ -513,7 +514,7 @@
 
         color: #111111;
 
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 700;
 
         text-decoration: none;
@@ -521,6 +522,8 @@
         transition: color 0.3s ease;
 
         word-break: break-word;
+
+        line-height: 1.5;
     }
 
 
